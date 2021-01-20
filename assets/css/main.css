@@ -1,0 +1,97 @@
+body {
+    font-family: proxima-nova, sans-serif;
+}
+h1 {
+    color:white;
+    text-align:center;
+}
+
+h2 {
+    color:#ff8a19;
+    text-align:center;
+}
+
+.landBox1 {
+    padding: 50px 30vw 100px 30vw;
+    background-repeat: no-repeat;
+    background-size: 102% 101%;
+    overflow: auto;
+    position: relative;
+    background-position: bottom;
+}
+
+.landBox2 {
+    padding:50px 25vw 100px 25vw;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    overflow:auto;
+    position: relative;
+}
+
+.landBox3 {
+    padding:50px 25vw 50px 25vw;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    overflow:auto;
+    position: relative;
+    background-color:#071215;
+}
+
+.claimOfferBtn {
+    background-color:#19cdff;
+    color:white;
+    padding:5px 15px;
+    border-radius: 5%;
+    margin-left:20vw;
+    transform: translateX(-50%);
+    position:absolute;
+}
+
+.landBox4 {
+    padding:50px 10vw 100px 10vw;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    overflow:auto;
+    position: relative;
+    display: table;
+}
+
+.form {
+    width:66%;
+    background-color:#ff8a19;
+    position:relative;
+    padding:5px;
+    padding-bottom:50px;
+    float:left;
+    display: table-cell;
+    height:100%;
+    box-sizing:border-box;
+}
+.column2 {
+    width:50%;
+    float:left;
+    padding:20px 5px;
+    box-sizing: border-box;
+}
+.input {
+    margin:15px 0px;
+    padding:5px;
+    background-color:#ff8a19;
+    border:1px solid grey;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.landBox5 {
+    padding:50px 10vw 25px 10vw;
+    background-repeat:no-repeat;
+    background-color:#081316;
+    overflow:auto;
+    position: relative;
+    display: table;
+    color:white;
+}
+
+.landBox5 > div > .column2 {
+    padding:25px;
+}
